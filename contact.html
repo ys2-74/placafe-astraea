@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the contact page HTML for the main project">
+    <meta name="robots" content="noindex, nofollow">
+    <!-- title -->
+    <title>Astraea - Contact</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Jura:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- add icons -->
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <!-- js/jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</head>
+
+<body class="subpage">
+    <header>
+        <div class="desktop-nav">
+            <!-- header logo -->
+            <a href="index.html" class="logo">
+                <img src="./image/logo-yellow.png" alt="logo">
+            </a>
+
+            <nav>
+                <menu>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#">Products</a>
+                        <ul class="dropdown">
+                            <li><a href="./products/orzorz.html"><span>&gt;</span>Orzorz Star</a></li>
+                            <li><a href="./products/sega.html"><span>&gt;</span>SEGA Homestar</a></li>
+                            <li><a href="./products/fulen.html"><span>&gt;</span>FULEN Star</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./contact.html" class="active">Contact</a></li>
+                </menu>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+        </div>
+        <div class="mobile-nav">
+            <input id="burger" type="checkbox">
+            <label for="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav>
+                <div>
+                    <a href="index.html"><img src="./image/logo.png" alt="header logo"></a>
+                </div>
+                <menu>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./products/orzorz.html">Products(Orzorz Star)</a></li>
+                    <li><a href="./products/sega.html">Products(SEGA Homestar)</a></li>
+                    <li><a href="./products/fulen.html">Products(FULEN Star)</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </menu>
+            </nav>
+        </div>
+    </header>
+    <section class="masthead">
+        <h1>Contact</h1>
+    </section>
+    <main>
+        <section class="contact">
+            <form class="contact-form" action="#" method="post">
+                <div class="form-item">
+                    <p class="label">Name</p>
+                    <input type="text" class="form-base form-input" placeholder="John Smith">
+                    <input type="text" class="form-base form-input" placeholder="Name">
+                </div>
+                <div class="form-item">
+                    <p class="label">Email</p>
+                    <input type="email" class="form-base form-input" placeholder="example@gmail.com">
+                    <input type="email" class="form-base form-input" placeholder="Email">
+                </div>
+                <div class="form-item">
+                    <p class="label">Phone</p>
+                    <input type="text" class="form-base form-input" placeholder="0001234567">
+                    <input type="text" class="form-base form-input" placeholder="Phone">
+                </div>
+                <div class="form-item">
+                    <p class="label label-message">Message</p>
+                    <textarea class="form-base form-textarea" placeholder="Message"></textarea>
+                </div>
+                <input type="submit" class="form-btn" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h3>Astraea</h3>
+            <p>2 Georgian Dr, Barrie, ON L4M 3X9</p>
+            <p>(012) 345-6789</p>
+            <p>info@placafe-astraea.com</p>
+            <div class="icons">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-twitter fa-lg"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-instagram fa-lg"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
